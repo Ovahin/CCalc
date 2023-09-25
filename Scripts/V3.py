@@ -49,3 +49,5 @@ while True:
             print(f'>> Error in the evaluation {operation}. Try again')
         except NameError:
             print(f'>> Error in the evaluation {operation}. Try again')
+        except ZeroDivisionError:
+            print(f'>> Error in the evaluation {operation}. Try again')
